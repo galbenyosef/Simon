@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#0000FF</color>
+    <color name="bluelight">#9999ff</color>
+    <color name="green">#00FF00</color>
+    <color name="greenlight">#99ff99</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="yellowlight">#ffff99</color>
+    <color name="red">#FF0000</color>
+    <color name="redlight">#ff9999</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+</resources>
+

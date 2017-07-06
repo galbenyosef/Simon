@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Simon</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string-array name="levels">
+        <item>Level 1 (1-10)</item>
+        <item>Level 2 (5-15)</item>
+        <item>Level 3 (10-20)</item>
+        <item>Level 4 (15-25)</item>
+        <item>Level 5 (20-30)</item>
+    </string-array>
+    <string name="myTitle">Android Exercise #2 - Simon</string>
+    <string name="requestName">Enter your name:</string>
+
+</resources>

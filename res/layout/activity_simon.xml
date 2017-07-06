@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:id="@+id/LayoutMain"
+    android:padding="5dp"
+
+    tools:context="gal.simon.SimonActivity">
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="#606060"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textMessenger"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:background="#000000"
+        android:text="Initializing..."
+
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/TopLeft"
+            android:tag="topLeft"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tl"
+            android:layout_marginRight="5dp"
+            ></LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/TopRight"
+            android:tag="topRight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/tr"></LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/BottomLeft"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bl"
+            android:orientation="horizontal"
+            android:layout_marginRight="5dp"
+            android:tag="bottomLeft"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/BottomRight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/br"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:tag="bottomRight"></LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
